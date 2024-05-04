@@ -44,3 +44,24 @@
     display: flex;
     gap: 2rem;
 }
+
+
+@media (max-width: 768px){
+    .navbar{
+        display: none;
+    }
+    header{
+        display: none;
+    }
+    #id-navbar{
+        display: none;
+    }
+}
+
+
+
+
+
+
+/* ***** navigation bar for small screen ***** */
+
