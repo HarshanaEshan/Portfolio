@@ -14,10 +14,6 @@
     --text-color: #fff;
     --main-color: #59B2F4;
 }
-html{
-    /* font-size: 62.5%; */
-    /* overflow: hidden; */
-}
 body{
     background-color: var(--bg-color);
     color: var(--text-color);
