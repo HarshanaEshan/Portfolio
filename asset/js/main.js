@@ -21,7 +21,7 @@ window.onscroll = () => {
 
 
 
-// Project section
+// ***** **** *** ** * PROJECT SECTION * ** *** **** *****
 
 // Select all open popup buttons
 const openPopupBtns = document.querySelectorAll('.open-popup-btn');
@@ -58,5 +58,111 @@ openPopupBtns.forEach((btn, index) => {
         }
     });
 });
+
+
+// ***** **** *** ** * LETTER TYPED JS * ** *** **** *****
+
+document.addEventListener("DOMContentLoaded", function () {
+    const options = {
+      strings: ['Full-stack Developer', 'Front-end Designer', 'Web Designer', 'Freelancer'],
+      typeSpeed: 100,
+      backSpeed: 50,
+      backDelay: 1000,
+      loop: true
+    };
+  
+    const multiTextElement = document.querySelector('.multiple-text');
+    let currentTextIndex = 0;
+    let currentText = '';
+    let isDeleting = false;
+  
+    function type() {
+      const fullText = options.strings[currentTextIndex];
+      if (isDeleting) {
+        currentText = fullText.substring(0, currentText.length - 1);
+      } else {
+        currentText = fullText.substring(0, currentText.length + 1);
+      }
+  
+      multiTextElement.textContent = currentText;
+  
+      let typeSpeed = options.typeSpeed;
+      if (isDeleting) {
+        typeSpeed /= 2; // Faster when deleting
+      }
+  
+      if (!isDeleting && currentText === fullText) {
+        typeSpeed = options.backDelay;
+        isDeleting = true;
+      } else if (isDeleting && currentText === '') {
+        isDeleting = false;
+        currentTextIndex = (currentTextIndex + 1) % options.strings.length;
+      }
+  
+      setTimeout(type, typeSpeed);
+    }
+  
+    type();
+  });
+
+
+
+  // ******* input js in contact form ******
+
+  // function changeVisibility() {
+  //   var lbl1 = document.getElementById("lbl-name-1");
+  //   var lbl2 = document.getElementById("lbl-name-2");
+
+  //   lbl1.style.visibility = "hidden"; // Change the visibility
+  //   lbl2.style.visibility = "visible";
+  // }
+
+//   function changeVisibility() {
+//     var txtName = document.getElementById("txt-name");
+//     var lbl1 = document.getElementById("lbl-name-1");
+//     var lbl2 = document.getElementById("lbl-name-2");
+
+//     // lbl1.style.visibility = "hidden"; // Hide lbl1
+//     // lbl2.style.visibility = "visible"; // Show lbl2
+
+//     if (txtName.value === "") {
+//         lbl1.style.visibility = "visible"; // Show lbl1
+//         lbl2.style.visibility = "hidden"; // Hide lbl2
+//     } else {
+//         lbl1.style.visibility = "hidden"; // Hide lbl1
+//         lbl2.style.visibility = "visible"; // Show lbl2
+//     }
+// }
+
+var txtName = document.getElementById("txt-name");
+var lbl1 = document.getElementById("lbl-name-1");
+var lbl2 = document.getElementById("lbl-name-2");
+
+// Function to handle changes in the input field
+function handleInputChange() {
+    if (txtName.value === "") {
+        lbl1.style.visibility = "visible"; // Show lbl1
+        lbl2.style.visibility = "hidden"; // Hide lbl2
+    } else{
+      lbl1.style.visibility = "hidden"; // Hide lbl1
+      lbl2.style.visibility = "visible"; // Show lbl2
+  }
+}
+
+// Add event listeners for input and click events
+txtName.addEventListener("input", handleInputChange);
+txtName.addEventListener("click", handleInputChange);
+
+// Initially call handleInputChange to set initial visibility
+handleInputChange();
+
+
+
+
+
+
+
+
+
 
 

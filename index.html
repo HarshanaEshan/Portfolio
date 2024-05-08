@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="./asset/css/about.css">
     <link rel="stylesheet" href="./asset/css/skills.css">
     <link rel="stylesheet" href="./asset/css/project.css">
+    <link rel="stylesheet" href="./asset/css/contact.css">
+    <link rel="stylesheet" href="./asset/css/footer.css">
+    <link rel="stylesheet" href="./asset/css/particles.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -21,32 +24,35 @@
 </head>
 <body>
         <!-- NAVIGATON BAR DESIGN  -->
-        <header class="navbar" id="id-navbar">
-            <div class="logo"><a href="#">HARSHANA ESHAN</a></div>
-            <ul class="links">
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#project">Project</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <a href="#" class="action-btn">get strat</a>
+        <header>
+            <div class="nav-bar">
+                <a href="#" class="logo">Inpheonix</a>
+                <div class="navigation">
+                    <div class="nav-items">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#project">Projects</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+                <button>Adooo</button>
+            </div>
         </header>
 
         <!-- HERO SECTION DESIGN -->
         <section class="home" id="home">
-            <div class="mobile">
-                <img src="./asset/images/profile-1.png" alt="" class="home-img">
-            </div>
+            <div id="particles-js"></div>
             <div class="left-side">
                 <div class="home-content">
                     <h3>Hey it's me</h3>
-                    <h1 class="stroke-text">Harshana Eshan</h1>
-                    <h3>And I'm a <span>Fullstack Developer</span></h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In deleniti sint tenetur voluptatum unde? Quidem, nam. Reiciendis, earum molestias, aut nemo ut neque dolor facilis rerum soluta odio distinctio cumque?</p>
+                    <h1 class="stroke-text-white">Harshana Eshan</h1>
+                    <h3>And I'm a <span class="multiple-text"></span></h3>
+                    <p>Step into the digital atelier of a masterful creator, where every line of code dances with the elegance of design. Witness the fusion of technology and artistry as a full-stack alchemist and frontend visionary weave magic into pixels and pathways, crafting immersive experiences that redefine digital landscapes.</p>
                 </div>
                 <!-- HERO BUTTON -->
                 <div class="hero-btn">
+                    <a href="./asset/documents/Harshana_Eshan_Resume.pdf" download target="_blank" style="text-decoration: none;">
                       <div class="glow-on-hover">
                           <div class="button">
                               <p class="btnText">DOWNLOAD CV</p>
@@ -55,6 +61,8 @@
                               </div>
                           </div>
                       </div>
+                    </a>
+                      <a href="#contact" style="text-decoration: none;">
                       <div class="glow-on-hover">
                           <div class="button">
                               <p class="btnText">CONTACT ME</p>
@@ -63,6 +71,7 @@
                               </div>
                           </div>
                       </div>
+                    </a>
                   </div>
             </div>
             <div class="midle">
@@ -81,7 +90,7 @@
         <section class="about section" id="about">
             <div class="container flex-center">
                 <h1 class="section-title-01">About Me</h1>
-                <h2 class="section-title-02">About Me</h2>
+                <h2 class="section-title-02 stroke-text-white">About Me</h2>
                 <div class="content flex-center">
                     <div class="about-img">
                         <img src="./asset/images/profile-4.png" alt="">
@@ -90,39 +99,43 @@
                         <div class="about-description">
                             <h3>I'm Harshana Eshan</h3>
                             <h4>A Front-End Specilize Fullstack Developer in Sri Lanka</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error harum at eaque laboriosam mollitia dicta in ad labore quam consequuntur veniam soluta qui ab, pariatur cum rem natus ut iste.</p>
+                            <p><br>Passionate about the dynamic field of Software Engineering, I specialize in Full-stack development, frontend specialization, and UI/UX engineering. With a keen eye for detail and a love for crafting seamless user experiences, I thrive on the intersection of technology and creativity. From conceptualizing sleek user interfaces to architecting robust backend systems, I am dedicated to delivering solutions that not only meet but exceed expectations. Let's collaborate to bring your digital vision to life with precision, innovation, and a touch of flair.</p>
                         </div>
                         <ul class="profetional-list">
                             <li class="list-item">
-                                <h3>5+</h3>
-                                <span>Hellow<br>Machan</span>
+                                <h4>Fullstack</h4>
+                                <span>Front-end<br>Back-end</span>
                             </li>
                             <li class="list-item">
-                                <h3>5+</h3>
-                                <span>Hellow<br>Machan</span>
+                                <h4>Web</h4>
+                                <span>Wordpress<br>Hosting</span>
                             </li>
                             <li class="list-item">
-                                <h3>5+</h3>
-                                <span>Hellow<br>Machan</span>
+                                <h4>Mobile</h4>
+                                <span>Android<br>Application</span>
                             </li>
                         </ul>
                         <div class="hero-btn">
-                            <div class="glow-on-hover">
-                                <div class="button">
-                                    <p class="btnText">DOWNLOAD CV</p>
-                                    <div class="btnTwo">
-                                      <p class="btnText2"><i class="fa-regular fa-circle-down"></i></p>
+                            <a href="./asset/documents/Harshana_Eshan_Resume.pdf" download target="_blank" style="text-decoration: none;">
+                                <div class="glow-on-hover">
+                                    <div class="button">
+                                        <p class="btnText">DOWNLOAD CV</p>
+                                        <div class="btnTwo">
+                                          <p class="btnText2"><i class="fa-regular fa-circle-down"></i></p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="glow-on-hover">
-                                <div class="button">
-                                    <p class="btnText">CONTACT ME</p>
-                                    <div class="btnTwo">
-                                      <p class="btnText2-icon"><i class="fa-solid fa-phone"></i></p>
+                              </a>
+                            <a href="#contact" style="text-decoration: none;">
+                                <div class="glow-on-hover">
+                                    <div class="button">
+                                        <p class="btnText">CONTACT ME</p>
+                                        <div class="btnTwo">
+                                          <p class="btnText2-icon"><i class="fa-solid fa-phone"></i></p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                              </a>
                         </div>
                     </div>
                 </div>
@@ -130,10 +143,10 @@
         </section>
 
         <!-- SKILLS SECTION DESIGN -->
-        <section class="about section" id="about">
+        <section class="skills section" id="skills">
             <div class="container flex-center">
                 <h1 class="section-title-01">My Skills</h1>
-                <h2 class="section-title-02">My Skills</h2>
+                <h2 class="section-title-02 stroke-text-white">My Skills</h2>
                 <div class="content flex-center">
                     
                     <div class="timeline">
@@ -141,10 +154,17 @@
                         <div class="skill-container  left-container">
                             <div class="bullet"></div>
                             <div class="text-box">
-                                <h2>Title Title</h2>
-                                <small>2024 - 2024</small>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis iure totam harum culpa. Nostrum ipsam et unde sequi fugit, corrupti hic officia distinctio velit placeat expedita eveniet doloribus voluptas eum.</p>
-                                <span class="left-container-arrow"></span>
+                                <h3>Programming Languages</h3>
+                                <h5>Languages</h5>
+                                <ul class="items">
+                                    <li><img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt=""></li>
+                                    <li><img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt=""></li>
+                                    <li><img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white" alt=""></li>
+                                    <li><img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt=""></li>
+                                    <li><img src="https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white" alt=""></li>
+                                    <li><img src="https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white" alt=""></li>
+                                </ul>
+                                <span class="left-container-arrow left-container-arrow-mobile"></span>
                             </div>
                         </div>
                         <!-- **************************** -->
@@ -152,9 +172,16 @@
                         <div class="skill-container right-container">
                             <div class="bullet"></div>
                             <div class="text-box">
-                                <h2>Title Title</h2>
-                                <small>2024 - 2024</small>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis iure totam harum culpa. Nostrum ipsam et unde sequi fugit, corrupti hic officia distinctio velit placeat expedita eveniet doloribus voluptas eum.</p>
+                                <h3>Web Technology</h3>
+                                <h5>Languages</h5>
+                                <ul class="items">
+                                    <li><img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt=""></li>
+                                    <li><img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt=""></li>
+                                    <li><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt=""></li>
+                                    <li><img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt=""></li>
+                                    <li><img src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white" alt=""></li>
+                                    <!-- <li><img src="" alt=""></li> -->
+                                </ul>
                                 <span class="right-container-arrow"></span>
                             </div>
                         </div>
@@ -163,10 +190,18 @@
                         <div class="skill-container left-container">
                             <div class="bullet"></div>
                             <div class="text-box">
-                                <h2>Title Title</h2>
-                                <small>2024 - 2024</small>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis iure totam harum culpa. Nostrum ipsam et unde sequi fugit, corrupti hic officia distinctio velit placeat expedita eveniet doloribus voluptas eum.</p>
-                                <span class="left-container-arrow"></span>
+                                <h3>Frame Work & Libraries</h3>
+                                <!-- <h5>2024 - 2024</h5> -->
+                                <ul class="items">
+                                    <li><img src="https://img.shields.io/badge/Spring_Boot-F2F4F9?style=for-the-badge&logo=spring-boot" alt=""></li>
+                                    <li><img src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white" alt=""></li>
+                                    <li><img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt=""></li>
+                                    <li><img src="https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white" alt=""></li>
+                                    <li><img src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white" alt=""></li>
+                                    <li><img src="https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white" alt=""></li>
+                                    <li><img src="https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white" alt=""></li>
+                                </ul>
+                                <span class="left-container-arrow left-container-arrow-mobile"></span>
                             </div>
                         </div>
                         <!-- **************************** -->
@@ -174,9 +209,16 @@
                         <div class="skill-container right-container">
                             <div class="bullet"></div>
                             <div class="text-box">
-                                <h2>Title Title</h2>
-                                <small>2024 - 2024</small>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis iure totam harum culpa. Nostrum ipsam et unde sequi fugit, corrupti hic officia distinctio velit placeat expedita eveniet doloribus voluptas eum.</p>
+                                <h3>Database Technology</h3>
+                                <!-- <h5>2024 - 2024</h5> -->
+                                <ul class="items">
+                                    <li><img src="https://img.shields.io/badge/mysql-%2300000f.svg?style=for-the-badge&logo=mysql&logoColor=white" alt=""></li>
+                                    <li><img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white" alt=""></li>
+                                    <li><img src="https://img.shields.io/badge/Microsoft%20Access-A4373A?style=for-the-badge&logo=microsoft-access&logoColor=white" alt=""></li>
+                                    <li><img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt=""></li>
+                                    <li><img src="" alt=""></li>
+                                    <li><img src="" alt=""></li>
+                                </ul>
                                 <span class="right-container-arrow"></span>
                             </div>
                         </div>
@@ -185,10 +227,17 @@
                         <div class="skill-container left-container">
                             <div class="bullet"></div>
                             <div class="text-box">
-                                <h2>Title Title</h2>
-                                <small>2024 - 2024</small>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis iure totam harum culpa. Nostrum ipsam et unde sequi fugit, corrupti hic officia distinctio velit placeat expedita eveniet doloribus voluptas eum.</p>
-                                <span class="left-container-arrow"></span>
+                                <h3>Documentation & Others</h3>
+                                <h5>2024 - 2024</h5>
+                                <ul class="items">
+                                    <li><img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt=""></li>
+                                    <li><img src="https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white" alt=""></li>
+                                    <li><img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" alt=""></li>
+                                    <li><img src="https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white" alt=""></li>
+                                    <li><img src="https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white" alt=""></li>
+                                    <!-- <li><img src="" alt=""></li> -->
+                                </ul>
+                                <span class="left-container-arrow left-container-arrow-mobile"></span>
                             </div>
                         </div>
                         <!-- **************************** -->
@@ -196,9 +245,17 @@
                         <div class="skill-container right-container">
                             <div class="bullet"></div>
                             <div class="text-box">
-                                <h2>Title Title</h2>
-                                <small>2024 - 2024</small>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis iure totam harum culpa. Nostrum ipsam et unde sequi fugit, corrupti hic officia distinctio velit placeat expedita eveniet doloribus voluptas eum.</p>
+                                <h3>Softwares</h3>
+                                <h5>Using for planning and development</h5>
+                                <ul class="items">
+                                    <li><img src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt=""></li>
+                                    <li><img src="https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white" alt=""></li>
+                                    <li><img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white" alt=""></li>
+                                    <li><img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white" alt=""></li>
+                                    <li><img src="https://img.shields.io/badge/Geany-6DC68C?style=for-the-badge&logo=geany&logoColor=white" alt=""></li>
+                                    <li><img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=white" alt=""></li>
+                                    <li><img src="https://img.shields.io/badge/Minitab-0082C8?style=for-the-badge&logo=minitab&logoColor=white" alt=""></li>
+                                </ul>
                                 <span class="right-container-arrow"></span>
                             </div>
                         </div>
@@ -212,7 +269,7 @@
         <section class="project section" id="project">
             <div class="container flex-center">
                 <h1 class="section-title-01">My Project</h1>
-                <h2 class="section-title-02">My Project</h2>
+                <h2 class="section-title-02 stroke-text-white">My Project</h2>
             </div>
 
             <div class="project">
@@ -222,17 +279,28 @@
                     <img src="./asset/images/profile-2.jpg" alt="">
                     <h3>Card Title</h3>
                     <p>This is a sample card with a creative popup window.</p>
-                    <button class="open-popup-btn main-card-btn">Open Popup</button>
+                    <button class="open-popup-btn main-card-btn">Project Details</button>
+                    <!-- ************** -->
+                    <!-- <div class="button open-popup-btn" id="main-card-btn">
+                        <p class="btnText" id="prj-btnText">Learn More</p>
+                        <div class="btnTwo">
+                          <p class="btnText2" id="prj-btnTwo">Click</i></p>
+                        </div>
+                    </div> -->
+                    <!-- ************** -->
                   </div>
                 </div>
                 
                 <div class="popup" id="popup1">
                   <div class="popup-content">
-                    <span class="close-popup-btn"><i class="fa-solid fa-xmark close-icon"></i></span>
+                    <span class="close-popup-btn" id="close-icon"><i class="fa-solid fa-xmark close-icon" id="close-icon" style="color: rgb(0, 0, 0);"></i></span>
                     <img src="./asset/images/profile-2.jpg" alt="">
                     <h3>Popup Title</h3>
-                    <p>Welcome to our Learning Platform repository! This project is a web-based learning platform where users can access a variety of free courses. It's designed using HTML, CSS, JavaScript, PHP, utilizes a MySQL database managed with phpMyAdmin and developed by Visual Studio code.</p>
-                    <div class="hero-btn flex-center">
+                    <textarea id="scrollingText" rows="5" cols="80">
+                        Welcome to our Learning Platform Project! This project is a web-based learning platform where users can access a variety of free courses. It's designed using HTML, CSS, JavaScript, PHP, utilizes a MySQL database managed with phpMyAdmin and developed by Visual Studio code.
+                        
+                    </textarea>
+                    <div class="hero-btn flex-center btn-project">
                         <div class="glow-on-hover">
                             <div class="button">
                                 <p class="btnText">CODE</p>
@@ -261,7 +329,7 @@
                       <img src="./asset/images/profile-2.jpg" alt="">
                       <h3>Card Title</h3>
                       <p>This is a sample card with a creative popup window.</p>
-                      <button class="open-popup-btn main-card-btn">Open Popup</button>
+                      <button class="open-popup-btn main-card-btn">Project Details</button>
                     </div>
                   </div>
                   
@@ -270,8 +338,10 @@
                       <span class="close-popup-btn"><i class="fa-solid fa-xmark close-icon"></i></span>
                       <img src="./asset/images/profile-2.jpg" alt="">
                       <h3>Popup Title</h3>
-                      <p>Welcome to our Learning Platform repository! This project is a web-based learning platform where users can access a variety of free courses. It's designed using HTML, CSS, JavaScript, PHP, utilizes a MySQL database managed with phpMyAdmin and developed by Visual Studio code.</p>
-                      <div class="hero-btn flex-center">
+                      <textarea id="scrollingText" rows="5" cols="80">
+                          Welcome to our Learning Platform Project! This project is a web-based learning platform where users can access a variety of free courses. It's designed using HTML, CSS, JavaScript, PHP, utilizes a MySQL database managed with phpMyAdmin and developed by Visual Studio code.
+                      </textarea>
+                      <div class="hero-btn flex-center btn-project">
                           <div class="glow-on-hover">
                               <div class="button">
                                   <p class="btnText">CODE</p>
@@ -293,14 +363,14 @@
                   </div>
                   
                   <div class="overlay" id="overlay"></div>
-                <!-- ************************ -->
-                <!-- card 03 -->
+                  <!-- ************************ -->
+                  <!-- card 03 -->
                 <div class="card" id="card">
                     <div class="card-content">
                       <img src="./asset/images/profile-2.jpg" alt="">
                       <h3>Card Title</h3>
                       <p>This is a sample card with a creative popup window.</p>
-                      <button class="open-popup-btn main-card-btn">Open Popup</button>
+                      <button class="open-popup-btn main-card-btn">Project Details</button>
                     </div>
                   </div>
                   
@@ -309,8 +379,10 @@
                       <span class="close-popup-btn"><i class="fa-solid fa-xmark close-icon"></i></span>
                       <img src="./asset/images/profile-2.jpg" alt="">
                       <h3>Popup Title</h3>
-                      <p>Welcome to our Learning Platform repository! This project is a web-based learning platform where users can access a variety of free courses. It's designed using HTML, CSS, JavaScript, PHP, utilizes a MySQL database managed with phpMyAdmin and developed by Visual Studio code.</p>
-                      <div class="hero-btn flex-center">
+                      <textarea id="scrollingText" rows="5" cols="80">
+                          Welcome to our Learning Platform Project! This project is a web-based learning platform where users can access a variety of free courses. It's designed using HTML, CSS, JavaScript, PHP, utilizes a MySQL database managed with phpMyAdmin and developed by Visual Studio code.
+                      </textarea>
+                      <div class="hero-btn flex-center btn-project">
                           <div class="glow-on-hover">
                               <div class="button">
                                   <p class="btnText">CODE</p>
@@ -332,14 +404,14 @@
                   </div>
                   
                   <div class="overlay" id="overlay"></div>
-                <!-- ************************ -->
-                <!-- card 04 -->
+                  <!-- ************************ -->
+                  <!-- card 04 -->
                 <div class="card" id="card">
                     <div class="card-content">
                       <img src="./asset/images/profile-2.jpg" alt="">
                       <h3>Card Title</h3>
                       <p>This is a sample card with a creative popup window.</p>
-                      <button class="open-popup-btn main-card-btn">Open Popup</button>
+                      <button class="open-popup-btn main-card-btn">Project Details</button>
                     </div>
                   </div>
                   
@@ -348,8 +420,10 @@
                       <span class="close-popup-btn"><i class="fa-solid fa-xmark close-icon"></i></span>
                       <img src="./asset/images/profile-2.jpg" alt="">
                       <h3>Popup Title</h3>
-                      <p>Welcome to our Learning Platform repository! This project is a web-based learning platform where users can access a variety of free courses. It's designed using HTML, CSS, JavaScript, PHP, utilizes a MySQL database managed with phpMyAdmin and developed by Visual Studio code.</p>
-                      <div class="hero-btn flex-center">
+                      <textarea id="scrollingText" rows="5" cols="80">
+                          Welcome to our Learning Platform Project! This project is a web-based learning platform where users can access a variety of free courses. It's designed using HTML, CSS, JavaScript, PHP, utilizes a MySQL database managed with phpMyAdmin and developed by Visual Studio code.
+                      </textarea>
+                      <div class="hero-btn flex-center btn-project">
                           <div class="glow-on-hover">
                               <div class="button">
                                   <p class="btnText">CODE</p>
@@ -371,14 +445,14 @@
                   </div>
                   
                   <div class="overlay" id="overlay"></div>
-                <!-- ************************ -->
-                <!-- card 05 -->
+                  <!-- ************************ -->
+                  <!-- card 05 -->
                 <div class="card" id="card">
                     <div class="card-content">
                       <img src="./asset/images/profile-2.jpg" alt="">
                       <h3>Card Title</h3>
                       <p>This is a sample card with a creative popup window.</p>
-                      <button class="open-popup-btn main-card-btn">Open Popup</button>
+                      <button class="open-popup-btn main-card-btn">Project Details</button>
                     </div>
                   </div>
                   
@@ -387,8 +461,10 @@
                       <span class="close-popup-btn"><i class="fa-solid fa-xmark close-icon"></i></span>
                       <img src="./asset/images/profile-2.jpg" alt="">
                       <h3>Popup Title</h3>
-                      <p>Welcome to our Learning Platform repository! This project is a web-based learning platform where users can access a variety of free courses. It's designed using HTML, CSS, JavaScript, PHP, utilizes a MySQL database managed with phpMyAdmin and developed by Visual Studio code.</p>
-                      <div class="hero-btn flex-center">
+                      <textarea id="scrollingText" rows="5" cols="80">
+                          Welcome to our Learning Platform Project! This project is a web-based learning platform where users can access a variety of free courses. It's designed using HTML, CSS, JavaScript, PHP, utilizes a MySQL database managed with phpMyAdmin and developed by Visual Studio code.
+                      </textarea>
+                      <div class="hero-btn flex-center btn-project">
                           <div class="glow-on-hover">
                               <div class="button">
                                   <p class="btnText">CODE</p>
@@ -410,14 +486,14 @@
                   </div>
                   
                   <div class="overlay" id="overlay"></div>
-                <!-- ************************ -->
-                <!-- card 06 -->
+                  <!-- ************************ -->
+                  <!-- card 06 -->
                 <div class="card" id="card">
                     <div class="card-content">
                       <img src="./asset/images/profile-2.jpg" alt="">
                       <h3>Card Title</h3>
                       <p>This is a sample card with a creative popup window.</p>
-                      <button class="open-popup-btn main-card-btn">Open Popup</button>
+                      <button class="open-popup-btn main-card-btn">Project Details</button>
                     </div>
                   </div>
                   
@@ -426,8 +502,10 @@
                       <span class="close-popup-btn"><i class="fa-solid fa-xmark close-icon"></i></span>
                       <img src="./asset/images/profile-2.jpg" alt="">
                       <h3>Popup Title</h3>
-                      <p>Welcome to our Learning Platform repository! This project is a web-based learning platform where users can access a variety of free courses. It's designed using HTML, CSS, JavaScript, PHP, utilizes a MySQL database managed with phpMyAdmin and developed by Visual Studio code.</p>
-                      <div class="hero-btn flex-center">
+                      <textarea id="scrollingText" rows="5" cols="80">
+                          Welcome to our Learning Platform Project! This project is a web-based learning platform where users can access a variety of free courses. It's designed using HTML, CSS, JavaScript, PHP, utilizes a MySQL database managed with phpMyAdmin and developed by Visual Studio code.
+                      </textarea>
+                      <div class="hero-btn flex-center btn-project">
                           <div class="glow-on-hover">
                               <div class="button">
                                   <p class="btnText">CODE</p>
@@ -449,14 +527,14 @@
                   </div>
                   
                   <div class="overlay" id="overlay"></div>
-                <!-- ************************ -->
-                <!-- card 07 -->
+                  <!-- ************************ -->
+                  <!-- card 07 -->
                 <div class="card" id="card">
                     <div class="card-content">
                       <img src="./asset/images/profile-2.jpg" alt="">
                       <h3>Card Title</h3>
                       <p>This is a sample card with a creative popup window.</p>
-                      <button class="open-popup-btn main-card-btn">Open Popup</button>
+                      <button class="open-popup-btn main-card-btn">Project Details</button>
                     </div>
                   </div>
                   
@@ -465,8 +543,10 @@
                       <span class="close-popup-btn"><i class="fa-solid fa-xmark close-icon"></i></span>
                       <img src="./asset/images/profile-2.jpg" alt="">
                       <h3>Popup Title</h3>
-                      <p>Welcome to our Learning Platform repository! This project is a web-based learning platform where users can access a variety of free courses. It's designed using HTML, CSS, JavaScript, PHP, utilizes a MySQL database managed with phpMyAdmin and developed by Visual Studio code.</p>
-                      <div class="hero-btn flex-center">
+                      <textarea id="scrollingText" rows="5" cols="80">
+                          Welcome to our Learning Platform Project! This project is a web-based learning platform where users can access a variety of free courses. It's designed using HTML, CSS, JavaScript, PHP, utilizes a MySQL database managed with phpMyAdmin and developed by Visual Studio code.
+                      </textarea>
+                      <div class="hero-btn flex-center btn-project">
                           <div class="glow-on-hover">
                               <div class="button">
                                   <p class="btnText">CODE</p>
@@ -488,14 +568,14 @@
                   </div>
                   
                   <div class="overlay" id="overlay"></div>
-                <!-- ************************ -->
-                <!-- card 08 -->
+                  <!-- ************************ -->
+                  <!-- card 08 -->
                 <div class="card" id="card">
                     <div class="card-content">
                       <img src="./asset/images/profile-2.jpg" alt="">
                       <h3>Card Title</h3>
                       <p>This is a sample card with a creative popup window.</p>
-                      <button class="open-popup-btn main-card-btn">Open Popup</button>
+                      <button class="open-popup-btn main-card-btn">Project Details</button>
                     </div>
                   </div>
                   
@@ -504,8 +584,10 @@
                       <span class="close-popup-btn"><i class="fa-solid fa-xmark close-icon"></i></span>
                       <img src="./asset/images/profile-2.jpg" alt="">
                       <h3>Popup Title</h3>
-                      <p>Welcome to our Learning Platform repository! This project is a web-based learning platform where users can access a variety of free courses. It's designed using HTML, CSS, JavaScript, PHP, utilizes a MySQL database managed with phpMyAdmin and developed by Visual Studio code.</p>
-                      <div class="hero-btn flex-center">
+                      <textarea id="scrollingText" rows="5" cols="80">
+                          Welcome to our Learning Platform Project! This project is a web-based learning platform where users can access a variety of free courses. It's designed using HTML, CSS, JavaScript, PHP, utilizes a MySQL database managed with phpMyAdmin and developed by Visual Studio code.
+                      </textarea>
+                      <div class="hero-btn flex-center btn-project">
                           <div class="glow-on-hover">
                               <div class="button">
                                   <p class="btnText">CODE</p>
@@ -527,14 +609,14 @@
                   </div>
                   
                   <div class="overlay" id="overlay"></div>
-                <!-- ************************ -->
-                <!-- card 09 -->
+                  <!-- ************************ -->
+                  <!-- card 09 -->
                 <div class="card" id="card">
                     <div class="card-content">
                       <img src="./asset/images/profile-2.jpg" alt="">
                       <h3>Card Title</h3>
                       <p>This is a sample card with a creative popup window.</p>
-                      <button class="open-popup-btn main-card-btn">Open Popup</button>
+                      <button class="open-popup-btn main-card-btn">Project Details</button>
                     </div>
                   </div>
                   
@@ -543,8 +625,10 @@
                       <span class="close-popup-btn"><i class="fa-solid fa-xmark close-icon"></i></span>
                       <img src="./asset/images/profile-2.jpg" alt="">
                       <h3>Popup Title</h3>
-                      <p>Welcome to our Learning Platform repository! This project is a web-based learning platform where users can access a variety of free courses. It's designed using HTML, CSS, JavaScript, PHP, utilizes a MySQL database managed with phpMyAdmin and developed by Visual Studio code.</p>
-                      <div class="hero-btn flex-center">
+                      <textarea id="scrollingText" rows="5" cols="80">
+                          Welcome to our Learning Platform Project! This project is a web-based learning platform where users can access a variety of free courses. It's designed using HTML, CSS, JavaScript, PHP, utilizes a MySQL database managed with phpMyAdmin and developed by Visual Studio code.
+                      </textarea>
+                      <div class="hero-btn flex-center btn-project">
                           <div class="glow-on-hover">
                               <div class="button">
                                   <p class="btnText">CODE</p>
@@ -566,17 +650,148 @@
                   </div>
                   
                   <div class="overlay" id="overlay"></div>
-                <!-- ************************ -->
-              </div>
-            
+                  <!-- ************************ -->
+              </div>    
         </section>
 
+        <!-- CONTACT SECTION DESIGN -->
+        <section class="contact section" id="contact">
+            <div class="container flex-center">
+                <h1 class="section-title-01">Contcat Me</h1>
+                <h2 class="section-title-02 stroke-text-white">Contcat Me</h2>
+                <div class="content flex-center">
+                    <div class="contact-left">
+                        <h3>Let's discuss with me</h3>
+                        <ul class="contact-list">
+                            <li>
+                                <h3 class="item-title"><i class="fas fa-phone"></i> Phone</h3>
+                                <span>+94 71 604 8560</span>
+                            </li>
+                            <li>
+                                <h3 class="item-title"><i class="fas fa-envelope"></i> Email Address</h3>
+                                <span><a href="mailto:harshanaeshan.info@gmail.com">harshanaeshan.info@gmail.com</a></span>
+                            </li>
+                            <li>
+                                <h3 class="item-title"><i class="fas fa-map-marker-alt"></i> Address</h3>
+                                <span>No 46,</span><br>
+                                <span>Wnaduramulla State,</span><br>
+                                <span>Panadura,</span><br>
+                                <span>Kalutara,</span><br>
+                                <span>Western,</span><br>
+                                <span>Sri Lanka.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contact-right">
+                        <p>I'm always open to discussing product<br/><span>design work or partnerships.</span></p>
+                        <form action="#">
+                            <div class="form-row">
+                               <div class="input-data">
+                                  <input type="text" required class="input-box" id="txt-first-name">
+                                  <label for="">First Name</label>
+                               </div>
+                               <div class="input-data">
+                                  <input type="text" required class="input-box" id="txt-last-name">
+                                  <label for="">Last Name</label>
+                               </div>
+                            </div>
+                            <div class="form-row">
+                               <div class="input-data">
+                                  <input type="email" required class="input-box" id="txt-email">
+                                  <label for="">Email</label>
+                               </div>
+                            </div>
+                            <div class="form-row">
+                             <div class="input-data">
+                                <input type="text" required class="input-box" id="txt-subject">
+                                <label for="">Subject</label>
+                             </div>
+                          </div>
+                            <div class="form-row">
+                               <div class="input-data textarea">
+                                  <textarea rows="8" cols="80" required id="contact-scrollingText" class="input-box" id="txt-message"></textarea>
+                                  <br />
+                                  <label for="">Write your message</label>
+                                  <br />
+                                  <div class="btn-contact">
+                                    <div class="form-row submit-btn">
+                                        <div class="input-data">
+                                           <div class="inner"></div>
+                                           <input type="submit" value="Submit">
+                                        </div>
+                                     </div>
+                                     <div class="form-row reset-btn">
+                                       <div class="input-data">
+                                          <div class="inner"></div>
+                                          <input type="reset" value="Reset">
+                                       </div>
+                                    </div>
+                                  </div>
+                               </div>
+                            </div>
+                         </form>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-
+        <!-- FOOTER SECTION DESIGN -->
+        <footer>
+            <div class="footer-col">
+                <h5>Projects</h5>
+                <ul class="footer-ul">
+                    <li><a href="#">Fullstak</a></li>
+                    <li><a href="#">Front-end</a></li>
+                    <li><a href="#">Web</a></li>
+                    <li><a href="#">Mobile app</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h5>Favourit</h5>
+                <ul class="footer-ul">
+                    <li><a href="#">Spring Boot</a></li>
+                    <li><a href="#">React</a></li>
+                    <li><a href="#">Angular</a></li>
+                    <li><a href="#">Bosstrap</a></li>
+                    <li><a href="#">Android</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h5>Sections</h5>
+                <ul class="footer-ul">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h5>follow us</h5>
+                <div class="footer-socialMedia">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+            </div>
+        </footer>
+        <div class="end-bar">
+            <h7>Developed & Design by HarshanaEshan@Inpheonex</h6>
+        </div>
+        
 
     <script src="./asset/js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- TYPED JS -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- PARTICLES JS -->
+    <script src="./asset/js/particles.js"></script>
+    <script src="./asset/js/app.js"></script>
 
 </body>
 </html>
