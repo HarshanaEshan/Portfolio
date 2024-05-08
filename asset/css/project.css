@@ -183,9 +183,11 @@
 }
 .card-content p{
   display: flex;
+  justify-content: center;
   text-align: center;
   margin-top: 0.2rem;
   color: var(--text-color);
+  /* background-color: #2cff92; */
 }
 .popup-content img{
   width: 500px;
