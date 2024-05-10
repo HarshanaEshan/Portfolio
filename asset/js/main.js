@@ -158,6 +158,17 @@ handleInputChange();
 
 
 
+// ***** **** *** ** * SCROLL ANIMATION JS * ** *** **** *****
+// ScrollReveal({ duration: 1000 });
+
+// ScrollReveal().reveal('.home-img')
+// ScrollReveal().reveal('.home-content-h3', { delay: 500 })
+// ScrollReveal().reveal('.home-img', { delay: 2000 })
+
+
+
+
+
 
 
 

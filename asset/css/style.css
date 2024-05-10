@@ -218,6 +218,11 @@ span{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.multiple-text{
+    background: -webkit-linear-gradient(#53ff2c, #1ca3bb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 
 
