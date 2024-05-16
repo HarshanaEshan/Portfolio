@@ -84,6 +84,9 @@ li{
 #home #about #skills #project #contact{
     position: relative;
 }
+.fev-icon{
+    border-radius: 50%;
+}
 
 
 
